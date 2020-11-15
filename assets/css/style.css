@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'intro';
+    src: url(../font/INTRO.OTF);
+}
+@font-face {
+    font-family: 'century-gothic-reguler';
+    src: url(../font/GOTHIC.TTF);
+}
+@font-face {
+    font-family: 'century-gothic-bold';
+    src: url(../font/GOTHICB.TTF);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url(../image/gunung.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+body header {
+position: absolute;
+width: 100%;
+height: 80px;
+left: 1px;
+top: 0px;
+background: #ffffff;
+}
+
+body header #profile {
+position: absolute;
+width: 131px;
+height: 27px;
+left: 30px;
+top: 26px;
+}
+body header #profile h2 {
+font-family: 'intro' ;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+color: #000000;
+} 
+
+body header #home {
+position: absolute;
+width: 73px;
+height: 24px;
+left: 876px;
+top: 28px;
+}
+
+body header #home h2 {
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color: #000000;
+}
+body header #home h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+body header #contact {
+position: absolute;
+width: 119px;
+height: 24px;
+left: 979px;
+top: 28px;
+}
+body header #contact h2 {
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color: #000000;
+}
+
+body header #about {
+position: absolute;
+width: 84px;
+height: 24px;
+left: 1128px;
+top: 28px;
+}
+body header #about h2 {
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color: #000000;
+}
+
+body header #skill {
+position: absolute;
+width: 70px;
+height: 24px;
+left: 1242px;
+top: 29px;
+}
+body header #skill h2 {
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color: #000000;
+}
+
+main #judul {
+position: absolute;
+width: 210px;
+height: 24px;
+left: 583px;
+top: 205px;
+}
+main #judul h2 {
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+text-transform: lowercase;
+color: #000000;
+}
+
+main #caption {
+position: absolute;
+width: 421px;
+height: 58px;
+left: 476px;
+top: 254px;
+}
+main #caption h2 {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+text-transform: lowercase;
+color: #000000;
+}
+
+main #caption h2 a {
+    text-decoration: none;
+}
+
+main #contact {
+position: absolute;
+width: 119px;
+height: 24px;
+left: 616px;
+top: 491px;
+}
+main #contact h2 {
+font-family: Intro ;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+text-transform: lowercase;
+color: #000000;
+}
+
+main #instagram .iconify {   
+position: absolute;
+width: 36px;
+height: auto;
+left: 84px;
+top: 575px;
+}
+main #ig {
+    position: absolute;
+    width: 120px;
+    height: 29px;
+    left: 141px;
+    top: 580px;
+}
+main #ig h2 {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: lowercase;
+    color: #000000;
+}
+main #ig h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+main #whatsapp .iconify {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 80px;
+    top: 625px;  
+}
+main #wa {
+position: absolute;
+width: 160px;
+height: 29px;
+left: 141px;
+top: 632px;
+}
+main #wa h2 {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-transform: lowercase;
+color: #000000;
+}
+
+main #facebook .iconify{
+    position: absolute;
+    width: 33px;
+    height: auto;
+    left: 85px;
+    top: 679px;
+}
+main #fb {
+    position: absolute;
+    width: 116px;
+    height: 29px;
+    left: 143px;
+    top: 682px;
+}
+main #fb h2 {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-transform: capitalize;
+color: #000000;
+}
+
+main #fb h2 a {
+    text-decoration: none;
+    color: black;
+}
+main #email .iconify {
+    position: absolute;
+    width: 52px;
+    height: auto;
+    left: 75px;
+    top: 720px;
+}
+main #mail {
+    position: absolute;
+    width: 465px;
+    height: 29px;
+    left: 144px;
+    top: 730px;
+}
+main #mail h2 {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-transform: lowercase;
+color: #000000;
+}
+main #mail h2 a {
+    text-decoration: none;
+    color: black;
+}
+main #about {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 850px;
+    background: rgb(185, 128, 76);
+}
+main #about #judul{
+position: absolute;
+width: 86px;
+height: 24px;
+left: 624px;
+top: 83px;
+}
+main #about #judul h2 {
+    font-family: Intro ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000; 
+}
+
+ main #about #foto{
+    position: absolute;
+    width: 266px;
+    height: 305px;
+    left: 53px;
+    top: 174px;
+    background-image: url(../image/p.jpeg);
+ }
+
+ main #about #data {
+     position: absolute;
+    width: 800px;
+    height: 500px;
+    left: 402px;
+    top: 176px;
+ }
+
+ main #about #data table tr td {
+    font-family: Intro ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000; 
+ }
+
+main #skill {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background: #FFFFFF;
+    top: 1450px;
+}
+ 
+main #skill #judul {
+position: absolute;
+width: 70px;
+height: 24px;
+left: 620px;
+top: 80px;
+}
+main #skill #judul h2 {
+    font-family: Intro ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;    
+}
+
+main #skill #foto {
+    position: absolute;
+    width: 409px;
+    height: 318px;
+    left: 170px;
+    top: 150px;
+    background-image: url(../image/voli.jpeg);  
+}
+
+main #skill #deskripsi-voli {
+    position: absolute;
+    width: auto;
+    height: 26px;
+    left: 292px;
+    top: 480px;
+} 
+main #skill #deskripsi-voli {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000; 
+}
+
+main #skill #komputer {
+    position: absolute;
+    width: 409px;
+    height: 318px;
+    left: 737px;
+    top: 150px;    
+    background: url(../image/komputer.jpeg);
+}
+
+main #skill #deskripsi-komputer {
+    position: absolute;
+    width: auto;
+    height: 26px;
+    left: 815px;
+    top: 480px;
+}
+main #skill #deskripsi-komputer {
+font-family: Century Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+text-transform: lowercase;
+color: #000000;
+}
+
+main #skill #all {
+    position: absolute;
+    width: 100%;
+    height: 117px;
+    left: 0px;
+    top: 583px;
+    background: #BB814C;
+}
+
+main #skill #last {
+    position: absolute;
+    width: 417px;
+    height: 24px;
+    left: 438px;
+    top: 618px;    
+}
+main #skill #last h2 {
+    font-family: Intro ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+main #skill #last #copy {  
+    width: 100%;
+    height: 26px;
+    padding-left: 10px;
+    top: 10px;
+}
+
+main #skill #last #copy p {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+ 
+
